@@ -31,12 +31,15 @@ Kick off your Hub journey with these ready-to-use project templates designed to 
 
 - [Hub Starter Template](https://github.com/holaplex/hub-starter) - A opinionated application template for building any product using Hub.
 
-Includes:
-- Web framework - NextJS
-- Users and sessions - NextAuth
-- Holaplex client and types
-- API server - GraphQL Apollo
-- Styles - Tailwind
+  Includes:
+    - Web framework - NextJS
+    - Users and sessions - NextAuth
+    - Holaplex client and types
+    - API server - GraphQL Apollo
+    - Styles - Tailwind
+
+
+
 - [Hub Starter Mint](https://github.com/holaplex/hub-starter-mint) - A beginner-friendly application using Hub, featuring a basic minting page to help you get started.  
 
    Showcases:
