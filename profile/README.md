@@ -29,7 +29,14 @@ Hub is built on a shared [Redpanda](https://redpanda.com/), which is a streaming
 
 Kick off your Hub journey with these ready-to-use project templates designed to help you learn and experiment with the Holaplex Hub API.
 
+- [Hub Starter Template](https://github.com/holaplex/hub-starter) - A opinionated application template for building any product using Hub.
 
+Includes:
+- Web framework - NextJS
+- Users and sessions - NextAuth
+- Holaplex client and types
+- API server - GraphQL Apollo
+- Styles - Tailwind
 - [Hub Starter Mint](https://github.com/holaplex/hub-starter-mint) - A beginner-friendly application using Hub, featuring a basic minting page to help you get started.  
 
    Showcases:
