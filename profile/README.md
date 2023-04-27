@@ -25,6 +25,29 @@ Hub is built on a shared [Redpanda](https://redpanda.com/), which is a streaming
 - [Hub Credentials](https://github.com/holaplex/hub-credentials) - Enables the creation of API credentials for Hub, with a GraphQL API for Ory Hydra. This allows for secure and easy integration of external applications with the Hub API.
 - [Hub Webhooks](https://github.com/holaplex/hub-webhooks) - Receive webhook events as Hub resources change, using the Svix webhooks service. This enables easy integration with external systems and services, and enables real-time updates of Hub resources.
 
+## Starter Projects 
+
+Kick off your Hub journey with these ready-to-use project templates designed to help you learn and experiment with the Holaplex Hub API.
+
+
+- [Hub Starter](https://github.com/holaplex/hub-starter) - A beginner-friendly application using Hub, featuring a basic minting page to help you get started.  
+
+   Showcases:
+    - Custodial wallet per user
+    - Minting drops to custodial wallet
+    - Single drop minting page
+
+- [Scavenger Hunt Starter](https://github.com/holaplex/hub-starter-scavenger) - A sample scavenger hunt application built using Hub, designed to showcase how you can build engaging NFT experiences and activations.
+
+  Showcases: 
+    - Custodial wallet per user
+    - Minting drops to custodial wallet
+    - Displaying all drops associated to a project
+    - Displaying ownership status of a drop
+
+
+
+
 ## Reference Projects
 
 A few reference project that demonstrate how to work with Hub to create unique NFT campaigns.
