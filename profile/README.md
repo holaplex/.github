@@ -30,7 +30,7 @@ Hub is built on a shared [Redpanda](https://redpanda.com/), which is a streaming
 Kick off your Hub journey with these ready-to-use project templates designed to help you learn and experiment with the Holaplex Hub API.
 
 
-- [Hub Starter](https://github.com/holaplex/hub-starter) - A beginner-friendly application using Hub, featuring a basic minting page to help you get started.  
+- [Hub Starter Mint](https://github.com/holaplex/hub-starter-mint) - A beginner-friendly application using Hub, featuring a basic minting page to help you get started.  
 
    Showcases:
     - Custodial wallet per user
