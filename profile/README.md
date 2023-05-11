@@ -9,7 +9,7 @@ The Holaplex Hub provides a collection of loosely coupled microservices that mak
 
 ## Getting Started
 
-Visit our docs site at [https://docs.holaplex.dev](https://docs.holaplex.dev) to read useful guides and review our API reference.
+Visit our docs site at [https://docs.holaplex.com](https://docs.holaplex.com) to read useful guides and review our API reference.
 
 ## Services Catalogue
 
