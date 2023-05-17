@@ -18,7 +18,7 @@ Hub is built on a shared [Redpanda](https://redpanda.com/), which is a streaming
 - [Hub Console](https://github.com/holaplex/hub) - A user-friendly management console for interacting with the Hub API.
 - [Hub NFTs](https://github.com/holaplex/hub-nfts) -  Enables the minting and indexing of NFT campaigns on multiple blockchains, with support for cross-chain interoperability.
 - [Hub Orgs](https://github.com/holaplex/hub-orgs) - Catalogs all organizations, projects, and memberships for the Hub, enabling easy management of your team and NFT campaigns.
-- [Hub Treasuries](https://github.com/holaplex/hub-orgs) - Allows the creation of custodial wallets using Fireblocks, as well as the submission of blockchain transactions using Hub custodial wallets.
+- [Hub Treasuries](https://github.com/holaplex/hub-treasuries) - Allows the creation of custodial wallets using Fireblocks, as well as the submission of blockchain transactions using Hub custodial wallets.
 - [Hub Customers](https://github.com/holaplex/hub-customers) - Offers customer references that receive a treasury for storing crypto wallets, enabling easy management of customer data and resources.
 - [Hub Permissions](https://github.com/holaplex/hub-permissions) - Manages all permission relationships for the Hub, leveraging Ory Keto for easy access control and delegation of authority.
 - [Hub Identities](https://github.com/holaplex/hub-identities) - Manages all identities for the Hub, with a GraphQL API for Ory Kratos. This allows for easy management of user accounts and authentication.
