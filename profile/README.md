@@ -13,17 +13,29 @@ Visit our docs site at [https://docs.holaplex.com](https://docs.holaplex.com) to
 
 ## Services Catalogue
 
-Hub is built on a shared [Redpanda](https://redpanda.com/), which is a streaming data platform that is compatible with Kafka. Each of the services within the Hub has its own [GraphQL API](https://graphql.org/), which means that there are multiple APIs to interact with. However, these APIs are stitched together using the [Apollo Federated Router](https://www.apollographql.com/docs/router/) to form a single API endpoint. This makes it easier for developers to interact with the Hub without having to deal with multiple APIs separately. The use of the Redpanda cluster ensures that the messages emitted and processed by the Hub are reliable and scalable.
+Hub is a collection of loosely coupled microservices that emit and process messages through a shared Redpanda cluster, a Kafka compatible streaming data platform. The services also expose their own GraphQL API that are stitched together into a single API endpoint using Apollo Federated Router.
 
-- [Hub Console](https://github.com/holaplex/hub) - A user-friendly management console for interacting with the Hub API.
-- [Hub NFTs](https://github.com/holaplex/hub-nfts) -  Enables the minting and indexing of NFT campaigns on multiple blockchains, with support for cross-chain interoperability.
-- [Hub Orgs](https://github.com/holaplex/hub-orgs) - Catalogs all organizations, projects, and memberships for the Hub, enabling easy management of your team and NFT campaigns.
-- [Hub Treasuries](https://github.com/holaplex/hub-treasuries) - Allows the creation of custodial wallets using Fireblocks, as well as the submission of blockchain transactions using Hub custodial wallets.
-- [Hub Customers](https://github.com/holaplex/hub-customers) - Offers customer references that receive a treasury for storing crypto wallets, enabling easy management of customer data and resources.
-- [Hub Permissions](https://github.com/holaplex/hub-permissions) - Manages all permission relationships for the Hub, leveraging Ory Keto for easy access control and delegation of authority.
-- [Hub Identities](https://github.com/holaplex/hub-identities) - Manages all identities for the Hub, with a GraphQL API for Ory Kratos. This allows for easy management of user accounts and authentication.
-- [Hub Credentials](https://github.com/holaplex/hub-credentials) - Enables the creation of API credentials for Hub, with a GraphQL API for Ory Hydra. This allows for secure and easy integration of external applications with the Hub API.
-- [Hub Webhooks](https://github.com/holaplex/hub-webhooks) - Receive webhook events as Hub resources change, using the Svix webhooks service. This enables easy integration with external systems and services, and enables real-time updates of Hub resources.
+- [Hub Console](https://github.com/holaplex/hub) - User-friendly management console for interacting with the Hub API, built with Next.js and TypeScript. 
+
+- [Hub NFTs](https://github.com/holaplex/hub-nfts) - Multi-chain minting and indexing of NFT campaigns. Leverages the Redpanda platform for inter-service communication. 
+
+- [Hub Orgs](https://github.com/holaplex/hub-orgs) - Catalogue of all organizations, projects, and memberships for Hub.
+
+- [Hub Treasuries](https://github.com/holaplex/hub-treasuries) - Creates crypto wallets using Fireblocks and submits blockchain transactions using Hub custodial wallets.
+
+- [Hub Customers](https://github.com/holaplex/hub-customers) - Manages customer references that receive a treasury for storing crypto wallets.
+
+- [Hub Permissions](https://github.com/holaplex/hub-permissions) - Contains all permission relationships for the Hub, leveraging Ory Keto for ACL, RBAC, and other access models.
+
+- [Hub Identities](https://github.com/holaplex/hub-identities) - Manages all identities for Hub. Provides a GraphQL API for interacting with Ory Kratos, the identity server.
+
+- [Hub Credentials](https://github.com/holaplex/hub-credentials) - Allows creation of API credentials for Hub. Provides a GraphQL API for interacting with Ory Hydra.
+
+- [Hub Webhooks](https://github.com/holaplex/hub-webhooks) - Receives webhook events as Hub resources change, using Svix webhooks service.
+
+- [Hub Credits](https://github.com/holaplex/hub-credits) - Allows users to pay for blockchain transactions and storage without needing tokens. Users can purchase credits using a credit card.
+
+- [Hub Messages](https://github.com/holaplex/hub-messages) - Listens for events emitted by services and sends emails to users using Postmark when applicable.
 
 ## Starter Projects 
 
@@ -54,20 +66,6 @@ Kick off your Hub journey with these ready-to-use project templates designed to 
     - Minting drops to custodial wallet
     - Displaying all drops associated to a project
     - Displaying ownership status of a drop
-
-
-
-
-## Reference Projects
-
-A few reference project that demonstrate how to work with Hub to create unique NFT campaigns.
-
-- [Eluvio SxSW Scavenger Hunt](https://github.com/holaplex/eluvio-sxsw) - During the SxSW 2023 event, Holaplex collaborated with Eluvio to host a scavenger hunt where participants scanned access badges using NFC to collect NFT keys. These keys unlocked the viewing of a video demo of the Holaplex Hub.
-
-  Showcases:
-    - Custodial Wallets
-    - NFT Edition minting through API
-    - Token gated content
 
 ## Open Source
 
